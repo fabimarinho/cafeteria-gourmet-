@@ -1,0 +1,134 @@
+/* Estilos para o carrinho inspirado na Amazon */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  header {
+    background-color: #232f3e;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  section {
+    padding: 40px 0;
+  }
+  
+  .item {
+    text-align: center;
+  }
+  
+  .item img {
+    max-width: 100%;
+  }
+  
+  .item p {
+    margin: 10px 0;
+  }
+  
+  .btn-add-to-cart {
+    background-color: #bd7f23fa;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-add-to-cart:hover {
+    background-color: #ffd700;
+  }
+  
+  #cart-items {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .cart-item {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e0e0e0;
+    padding: 20px 0;
+  }
+  
+  .cart-item:last-child {
+    border-bottom: none;
+  }
+  
+  .cart-item img {
+    width: 100px;
+    margin-right: 20px;
+  }
+  
+  .cart-item-info {
+    flex-grow: 1;
+  }
+  
+  .cart-item-info p {
+    margin: 0;
+  }
+  
+  .btn-remove-from-cart {
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-remove-from-cart:hover {
+    background-color: #d87d00;
+  }
+  
+  footer {
+    background-color: #232f3e;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+ .contato{
+    list-style-type: none;
+ }
+  
+
+
+  /* Responsividade */
+  @media screen and (max-width: 768px) {
+    .container {
+      width: 90%;
+    }
+  
+    .cart-item img {
+      width: 80px;
+    }
+  }
